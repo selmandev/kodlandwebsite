@@ -1,20 +1,72 @@
 body {
-    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-family: Inter; /* Yazı tipi ailesi */
     font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
-    background-color: #00ff8c; /* Web sayfasının arka plan rengi */
-    color: #000000; /* Metin rengi */
+    background-color: #5988ff; /* Web sayfasının arka plan rengi */
+    color: #ffffff; /* Metin rengi */
 }
 
-h1 {
-    color: #ff0000; /* Başlık rengi */
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+  
+    10% {
+      color: rgb(255, 100, 0);
+    }
+  
+    20% {
+      color: rgb(255, 242, 0);
+    }
+
+    30% {
+        color: green;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    50% {
+        color: rgb(132, 0, 255);
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: green;
+    }
+
+    80% {
+        color: yellow;
+    }
+
+    90% {
+        color: orange;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+
+
+h1 { animation: color-change 20s infinite ;
+    background-color: #2c3141;
+    color: #ef5da8; /* Başlık rengi */
     font-size: 70px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
 
 p {
-    border: 16px dotted saddlebrown;
-    background-color: palegoldenrod;
-    color:blue;
+    background-color: #5988FF;
+    color:#ffffff;
     font-size: 48px;
 
+}
+
+section { 
+    background-color: whitesmoke;
 }
